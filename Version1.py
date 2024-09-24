@@ -1,8 +1,13 @@
 # Version 1
 # Stage 1
-num_showers = int(input)("Enter the number of showers you take per week: ")
-print("I take " + num_showers + " showers per week") # I take 7 showers per wekk
-avg_per_showers = int(input)("how long your average showers are:")
-print("I take " + avg_per_showers + " mins to shower") # I take 20 mins to shower
+num_showers = int(input("Enter the number of showers you take per week: "))
+avg_shower_time = int(input("how long your average showers are:"))
+
 # Stage 2
-Total_water_
+WATER_USAGE_PER_MINUTE = 2 # gallons per minute
+Total_water_usage = num_showers *avg_shower_time * WATER_USAGE_PER_MINUTE
+
+# Stage 3 
+print("In a week, you use", Total_water_usage, "gallons of water for shower") # Output: In a week, you use 140 gallons of water for shower 
+# Stage 4 
+# It help other people to make sure that they don't use water too much.
